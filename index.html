@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photoblog</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="./">LIFESTYLE</a></li>
+    <header class="header">
+        <a class="header-link" href="./">
+            <img class="header-link-img"
+             src="https://img.icons8.com/officel/40/stack-of-photos.png" 
+            alt="Logo Photoblog" 
+            width="40" 
+             />
+        <br/>
+            Photoblog.dev
+    </a>
+             </a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-list-item"><a class="header-nav-list-item-link" href="./">LIFESTYLE</a></li>
                 <li><a href="./">PHOTODIARY</a></li>
                 <li><a href="./">MUSIC</a></li>
                 <li><a href="./">TRAVEL</a></li>
@@ -19,15 +29,15 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Photoblog</h2>
-            <ul>
-                <li>
-                    <img src="./Images/concert.jpg" alt="концерт" width="400px" />
+        <section class="section-gallery">
+            <h2 class="gallery-title">Photoblog</h2>
+            <ul class="gallery-list">
+                <li class="gallery-item">
+                    <img class="gallery-img" src="./Images/concert.jpg" alt="концерт" width="400px" />
                     <div>
-                        <a href="./">LIFESTYLE</a>
-                        <h3>More than just a music festival </h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam similique quasi reiciendis
+                        <a class="gallery-link" href="./">LIFESTYLE</a>
+                        <h3 class="gallery-list-title">More than just a music festival </h3>
+                        <p class="gallery-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam similique quasi reiciendis
                             eius molestias. Eum delectus sapiente nulla. Sapiente minima eos veniam ducimus cupiditate
                             itaque iusto doloremque, deleniti numquam reiciendis.</p>
                     </div>
