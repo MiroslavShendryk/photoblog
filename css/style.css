@@ -1,3 +1,45 @@
+:root{
+ --color-main:#626262;
+ --color-link:#7D7D7D;
+ --color-card-link:#B4AD9E;
+ --color-hover:#03A9F4;
+}
 body{
-    background-color: yellow;
+font-family:"Playfair Display", sans-serif;
+/* font-weight: 400; */
+color:var(--color-main);
+font-size: 14px;
+}
+.header-nav-list-item-link{
+    /* font-family:"Playfair Display", sans-serif; */
+/* font-weight: 400; */
+/* font-size: 14px; */
+color:var(--color-link);
+}
+.header-nav-list-item-link:hover{
+    color:var(--color-hover);
+}
+.gallery-link{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    /* font-size: 14px; */
+    color: var(--color-card-link);
+}
+.gallery-list-title{
+    /* font-family:"Playfair Display", sans-serif ; */
+font-weight: 400;
+font-size: 30px;
+/* color:var(--color-main); */
+}
+.gallery-text{
+    /* font-family:"Playfair Display", sans-serif; */
+/* font-weight: 400; */
+/* font-size: 14px; */
+/* color:var(--color-main); */
+}
+.button{
+/* font-family:"Playfair Display", sans-serif; */
+/* font-weight: 400; */
+/* font-size: 14px; */
+/* color:var(--color-main); */
 }
